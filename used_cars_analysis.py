@@ -4,22 +4,6 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 
 
-'''
-Questions:
-
-make of a car and its effects on price:
-    - .##DONE##
-
-visual attributes and its effects on price:
-    - get body style (sedan, coupe, etc..) and its coloration with price ##DONE##
-    - get hight and see its corolation with price <xy graph> ##DONE##
-    - get width and see its corolation with price <xy graph> ##DONE##
-
-powertrain and its effects on price
-    - horsepower and price <xy> ##DONE##
-    - wheel drive [4wd, fwd, rwd] and price <bar graph> ##DONE##
-    - diesel vs gas  ##DONE##
-'''
 #get every brand and its avg price
 def make_and_price(data):
     makes_avgs = data.groupby('make')['price'].mean()
@@ -94,10 +78,10 @@ if __name__ == '__main__':
     data = data.dropna()
     data = data.drop_duplicates()
 
-make_and_price(data)
-bodystyle_and_price(data)
-length_and_price(data)
-width_and_price(data)
-drivewheel_and_price(data)
-horsepower_and_price(data)
-gas_diesel_price(data)
+    make_and_price(data)
+    bodystyle_and_price(data)
+    length_and_price(data)
+    width_and_price(data)
+    drivewheel_and_price(data)
+    horsepower_and_price(data)
+    gas_diesel_price(data)

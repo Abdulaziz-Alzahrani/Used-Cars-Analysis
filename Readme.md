@@ -27,16 +27,16 @@ pip install seaborn
 
 ## Content
 
-#### - used_cars_analysis.py :
+### - used_cars_analysis.py :
 a python file containing all the code needed to answer the questions related to the project.
 
-#### - usedcar_dataset_analysis.ipynb :
+### - usedcar_dataset_analysis.ipynb :
 a Jupyter notebook containing the objectives, questions, analysis and visualization related to the project.
 
-#### - usedcars_dataset.csv :
+### - usedcars_dataset.csv :
 comma seperated file containing the dataset used in this project.
 
-#### - Readme.md :
+### - Readme.md :
 description of the project.
 
 ## Summary:

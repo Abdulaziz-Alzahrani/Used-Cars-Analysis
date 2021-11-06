@@ -42,9 +42,9 @@ description of the project.
 ## Summary:
 In this project I did the analysis about the characteristics of a car and its effects on its resell price and the following is a summary of the results that I found.
 
-Car Make can have an effect on price.
-Body style of a car can effect price.
-The Powertrain can impact the price of a car.
+- Car Make can have an effect on price.
+- Body style of a car can effect price.
+- The Powertrain can impact the price of a car.
 
 ## Acknowledgements 
 
